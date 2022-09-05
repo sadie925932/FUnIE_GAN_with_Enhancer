@@ -47,6 +47,7 @@ parser.add_argument("--pyramid_mode",type=str,default='Try2') #Original/Spatial/
 args = parser.parse_args()
 
 print("Attention Mode:%s"%(args.attention_mode))
+print("Attention Mode:%s"%(args.attention_mode))
 print("Pyramid Mode:%s"%(args.pyramid_mode))
 
 ## training params
