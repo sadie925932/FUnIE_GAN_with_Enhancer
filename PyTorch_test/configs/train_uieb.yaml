@@ -1,0 +1,13 @@
+# dataset info
+dataset_name: "UIEB_NYU"
+dataset_path: "/home/cbel/Desktop/Sadie/FUnIE-GAN-master/UIEB_NYU/"
+
+
+# image info
+chans: 3
+im_width: 512
+im_height: 512
+
+# other params
+val_interval: 100 # steps org 1000
+ckpt_interval: 10  # 20 epochs save a model

@@ -1,0 +1,12 @@
+**/data/
+**/dataset/
+**/EUVP/
+**/EUVP_org/
+**/PyTorch/
+**/TF-Keras/
+**/UIEB/
+**/UIEB_NYU/
+**/PyTorch_test/checkpoints/
+**/PyTorch_test/samples/
+**/PyTorch/models/
+**/models/*

@@ -1,0 +1,18 @@
+
+addpath('./UCIQE')
+
+file_path = {'/home/cbel/Desktop/Sadie/FUnIE-GAN-master/data/test/AL-NG-OVD/'};
+
+dir_list = dir(string(file_path));
+dir_num = length(dir_list);
+uciqe = [];
+
+for i = 1:(dir_num-1)
+    if i != 114 
+        img = imread(strcat(string(file_path),string(i),".jpg"));
+        u = UCIQE(img);
+        uciqe(i) = u;
+    end
+end
+
+mean(uciqe)
