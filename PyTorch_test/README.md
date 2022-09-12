@@ -16,6 +16,4 @@
 - https://phillipi.github.io/pix2pix/
 - https://github.com/eriklindernoren/PyTorch-GAN
 - https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
-# FUnIE_GAN_with_Enhacer
-# FUnIE_GAN_with_Enhacer
-# FUnIE_GAN_with_Enhacer
+
